@@ -1,0 +1,80 @@
+<!--Main jQuery and Bootstrap-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.12.0/axios.js"></script>
+
+
+
+<!--Import Personal CSS-->
+<link rel="stylesheet" type="text/css" href="Quote.css" media="screen" />
+
+<!--Import Personal Javascript-->
+<script type="text/javascript" src="Quote.js"></script>
+
+<!--Twitter Button-->
+<script>
+    window.twttr = (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function (f) {
+            t._e.push(f);
+        };
+
+        return t;
+    }(document, "script", "twitter-wjs"));
+</script>
+
+
+
+
+
+
+
+<body class="container container-fluid" style="background-color: #74f2ff">
+    <h1>Bart's Random Quote Machine</h1>
+
+    <div id="box">
+        <p class="fa fa-quote-left" id="quote"> </p>
+        <div id="rightSpacer">
+            <ul>
+                <li><em id="author"> </em>
+                    <br>
+                </li>
+            </ul>
+            <button class="btn btn-primary" id="quotebutton">New Quote</button>
+        </div>
+
+        <!--
+		<a id="tweet" class="twitter-share-button"
+  href="https://twitter.com/share"
+  data-size="large"
+  data-url="http://codepen.io/bartchr808/pen/PzJOJY"
+  data-via="twitterdev"
+  data-related="twitterapi,twitter"
+  data-hashtags="myCodingProject"
+  data-text="custom share text">Tweet</a>
+-->
+        <div id="tweetBtn">
+            <a class="btn btn-info" onclick="tweet()"><i class="fa fa-twitter"></i> Tweet</a>
+        </div>
+</body>

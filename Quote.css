@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    padding-top: 7%;
+    font-size: 500%;
+    font-family: "Times New Roman";
+    text-decoration: underline;
+}
+
+em {
+    font-size: 240%;
+}
+
+#quote {
+    font-size: 350%;
+    padding: 3.3%
+}
+
+#box {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0% 10% 10% 10%
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:before {
+    content: " - ";
+    margin-left: 60%;
+    font-size: 240%;
+}
+
+#rightSpacer {
+    margin: 0% 3.3% 3.3% 0% !important;
+    text-align: right;
+}
+
+#quotebutton {
+    font-size: 25px !important;
+}
+
+#tweetBtn {
+    margin: -2.3% 3.3% 3.3% 0% !important;
+    text-align: right;
+}
+
+
+/*
+.btn-primary {
+    background: #3a797f !important;
+    color: #ffffff !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background: #5cc1cc !important;
+}
+.btn-primary:active,
+.btn-primary.active {
+    background: #74f2ff !important;
+    box-shadow: none !important;
+}*/
+
+.btn-info {
+    background: #1b95e0 !important;
+    color: #ffffff !important;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+    background: #1889cf !important;
+}
+
+.btn-info:active,
+.btn-info.active {
+    background: #1889cf !important;
+    box-shadow: none !important;
+}
